@@ -105,11 +105,6 @@ nav#navbar ul li {
     font-family: Roboto-Regular, sans-serif;
 }
 
-nav#navbar ul li {
-    /*argin-left: 10%;*/
-    /*flex: 1 1 auto;*/
-}
-
 /*
     Page Content Styles
 */
@@ -138,7 +133,8 @@ main {
     }
 
     nav#navbar a#nav-button {
-        display: block;
+        display: flex;
+        align-items: center;
         padding: 0px;
         margin: 0px 0px 0px 5px;
         height: auto;
@@ -159,10 +155,11 @@ main {
     nav#navbar ul li {
         display: block;
         margin-left: 10px;
+        font-size: 24px;
     }
 
     nav#navbar ul li:not(:first-of-type) {
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     header h1 {
