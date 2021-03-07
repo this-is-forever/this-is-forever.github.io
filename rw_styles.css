@@ -82,6 +82,7 @@ nav#navbar {
     /*background-color: hsl(340, 100%, 15%);*/
     background-color: hsl(290, 40%, 15%);
     border-top: 1px solid hsl(290, 40%, 20%);
+    border-bottom: 1px solid hsl(290, 40%, 10%);
     width: 100%;
 }
 
@@ -150,7 +151,7 @@ main {
         height: auto;
     }
 
-    nav#navbar > a#nav-button:hover+ul, nav#navbar > ul > li:hover {
+    nav#navbar > a#nav-button:hover+ul, nav#navbar > ul:hover {
         display: block;
     }
     
