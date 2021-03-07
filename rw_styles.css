@@ -156,10 +156,15 @@ main {
         display: block;
         margin-left: 10px;
         font-size: 24px;
+        margin-top: 15px;
     }
 
-    nav#navbar ul li:not(:first-of-type) {
+    nav#navbar ul li:first-of-type {
         margin-top: 10px;
+    }
+
+    nav#navbar ul li:last-of-type {
+        margin-bottom: 15px;
     }
 
     header h1 {
