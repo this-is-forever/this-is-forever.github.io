@@ -4,7 +4,9 @@
         <meta charset="utf-8" />
         <title>Royal Wireless | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="rw_reset.css" />
         <link rel="stylesheet" href="rw_styles.css" />
+        <link rel="stylesheet" href="rw_home.css" />
     </head>
     <body>
         <header>
@@ -12,17 +14,71 @@
             <nav id="navbar">
                 <a id="nav-button"><img src="img/nav.png" /></a>
                 <ul>
-                    <li>Shop Plans</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>My Account</li>
-                    <li>Help</li>
+                    <li><a href="/plans">Shop Plans</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/login">My Account</a></li>
+                    <li><a href="/help">Help</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <article>
-                <p>Blazing-fast mobile plans starting at only $15/month!</p>
+                <div class="boldFace">
+                    Wireless speeds fit for a king,
+                    starting at only $15 / month.
+                    <img src="img/wireless.svg" />
+                </div>
+                <div class="planComparison">
+                    <div class="plan">
+                        <div class="planName">
+                            Squire
+                        </div>
+                        <div class="planPrice">
+                            $15 / month
+                        </div>
+                        <div class="planDetails">
+                            5GB 4G LTE data / month<br />
+                            Unlimited talk and text
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="planName">
+                            Knight
+                        </div>
+                        <div class="planPrice">
+                            $20 / month
+                        </div>
+                        <div class="planDetails">
+                            10GB 4G LTE data / month<br />
+                            Unlimited talk and text
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="planName">
+                            Noble
+                        </div>
+                        <div class="planPrice">
+                            $30 / month
+                        </div>
+                        <div class="planDetails">
+                            20GB 5G LTE data / month<br />
+                            Unlimited talk and text
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="planName">
+                            Royal
+                        </div>
+                        <div class="planPrice">
+                            $45 / month
+                        </div>
+                        <div class="planDetails">
+                            Unlimited 5G LTE data / month<br />
+                            Unlimited talk and text
+                        </div>
+                    </div>
+                </div>
             </article>
         </main>
     </body>

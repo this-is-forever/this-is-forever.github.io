@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+html, body, header, footer, main, article, p, aside, div {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
