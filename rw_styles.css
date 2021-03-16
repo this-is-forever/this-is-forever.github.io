@@ -185,9 +185,9 @@ main {
     }
 }
 
-/* Styles for all mobile and tablet devices (width <= 1024px) */
+/* Styles for all mobile and tablet devices (width <= 768px) */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 
     /* Fit entire page to screen width */
 

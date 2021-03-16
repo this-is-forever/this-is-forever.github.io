@@ -124,7 +124,7 @@ div.planComparison > div.plan > ul.planDetails {
 }
 
 /* Rules for portrait-mode tablet devices or smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation: portrait) {
     div.planComparison div.plan {
         width: 100%;
         margin-bottom: 15px;
@@ -132,7 +132,7 @@ div.planComparison > div.plan > ul.planDetails {
 }
 
 /* Rules for landscape-mode tablet devices or smaller screens */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) and (orientation: landscape) {
     div.planComparison div.plan {
         width: 48%;
         margin-bottom: 15px;
