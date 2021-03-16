@@ -31,6 +31,7 @@ html {
 
 body {
     width: 80%;
+    max-width: 2187px;
     min-height: 100%;
     background-color: hsl(0, 0%, 95%);
     /*border-left: 5px solid hsl(340, 100%, 15%);

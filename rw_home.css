@@ -1,5 +1,25 @@
 @charset "utf-8";
 
+div#banner {
+    height: 600px;
+    color: white;
+    text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+    font-weight: normal;
+    font-family: Questrial, sans-serif;
+    text-transform: lowercase;
+    font-size: 60px;
+    background-image: url(img/cell-banner.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 5px black;
+    background-color: black;
+}
+
 article {
     background-image: linear-gradient(to right, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
     padding: 25px 0px;
@@ -8,7 +28,7 @@ article {
 
 h2 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
     font-family: Roboto-Medium, sans-serif;
     font-size: 32px;
     font-weight: normal;
@@ -80,24 +100,6 @@ div.planComparison > div.plan > ul.planDetails {
     margin-left: 35px;
     margin-right: 30px;
     padding-bottom: 10px;
-}
-
-div#banner {
-    height: 600px;
-    color: white;
-    text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
-    font-weight: normal;
-    font-family: Questrial, sans-serif;
-    text-transform: lowercase;
-    font-size: 60px;
-    background-image: url(img/cell-banner.jpg);
-    background-size: 100% auto;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    box-shadow: 0px 0px 5px black;
 }
 
 @media only screen and (max-width: 480px) {

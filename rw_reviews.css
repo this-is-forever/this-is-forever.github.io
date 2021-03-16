@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+main {
+    background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
+
+}
+
+main > h2 {
+    text-align: center;
+    padding-top: 48px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+div.reviewStage {
+    background-image: linear-gradient(to top left, hsl(290, 0%, 80%), hsl(290, 0%, 100%));
+    border-top:5px solid hsl(290, 40%, 10%);
+    padding: 16px 0px 32px;
+    text-align: center;
+}
+
+article {
+    background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    color: white;
+    padding: 32px 32px 24px;
+    border-bottom: 5px solid hsl(320, 60%, 10%);
+    text-align: left;
+}
+
+button#loadMoreButton {
+    margin: 24px auto auto 0px;
+    border: 3px solid hsl(320, 60%, 10%);
+    border-radius: 3px;
+    padding: 8px;
+    width: 30%;
+    background-color: hsl(320, 60%, 10%);
+    color: white;
+}
+
+button#loadMoreButton:hover {
+    background-color: hsl(320, 60%, 20%);
+
+}
+
+form {
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+article > h3 {
+    margin-top: 8px;
+    text-align: right;
+}
+
+form > h2 {
+    margin: 24px 0px 12px;
+    text-align: center;
+}
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+form > input, form > textarea {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+form > input#submit {
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    color: white;
+    border: 1px solid hsl(320, 60%, 30%);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+form > textarea {
+    height: 8em;
+}
+
+form > label {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 1.2em;
+}
+
+form > label:after {
+    content: ":";
+}
+
+@media only screen and (max-width: 480px) {
+
+    article > h3 {
+        font-size: 1em;
+    }
+
+    article {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    form {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Royal Wireless | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="rw_reset.css" />
+        <link rel="stylesheet" href="rw_styles.css" />
+        <link rel="stylesheet" href="rw_reviews.css" />
+        <script src="reviews_loader.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">Royal Wireless.</a></h1>
+            <nav id="navbar">
+                <a id="nav-button"><img src="img/nav.png" /></a>
+                <ul>
+                    <li><a href="/plans">Shop Plans</a></li>
+                    <li><a href="/reviews.html">Reviews</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/login">My Account</a></li>
+                    <li><a href="/help">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>What are other customers saying about Royal Wireless?</h2>
+            <div class="reviewStage">
+                <article>
+                    <q>I was a customer of one of the larger wireless companies for years. I didn't realize that I could get the same level of service at a cheaper price until I switched to Royal Wireless. Switching to Royal has saved me hundreds of dollars. I will never look back!</q>
+                    <h3>-Wendy W., San Antonio, TX</h3>
+                </article>
+                <article>
+                    <q>I have been a Royal Wireless customer for more than two years now. Royal's customer service is oustanding, and the connection speed and strength in my area actually beats competitors out there who charge more for poorer service. Switch now, you won't regret it!</q>
+                    <h3>-Tom S., Washington, D.C.</h3>
+                </article>
+                <article>
+                    <q>I switched my entire family over to Royal Wireless plans and have saved a ridiculous amount of money. Originally a Verizon customer, my family spent thousands every year on wireless. With Royal, we're not only saving money but don't have to worry about spotty service!</q>
+                    <h3>-Andy B., San Francisco, CA</h3>
+                </article>
+                <!-- Additional comments will be loaded here from backend -->
+                <button id="loadMoreButton" onclick="loadMore()">Load 3 More</button>
+            </div>
+            <form id="reviewForm">
+                <h2>Leave your own review of Royal Wireless:</h2>
+                <label for="revName">Name</label>
+                <input name="name" id="revName" type="text"/>
+                <label for="revCity">City</label>
+                <input name="city" id="revCity" type="text"/>
+                <label for="revState">State</label>
+                <input name="state" id="revState" type="text"/>
+                <label for="reviewText">Review</label>
+                <textarea name="review" id="reviewText"></textarea>
+                <input id="submit" type="submit" />
+            </form>
+        </main>
+    </body>
+</html>
