@@ -2,7 +2,7 @@
 
 main {
     background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
-
+    font-size: 1.5em;
 }
 
 main > h2 {
@@ -32,6 +32,7 @@ article {
 }
 
 button#loadMoreButton {
+    font-size: 1em;
     margin: 24px auto auto 0px;
     border: 3px solid hsl(320, 60%, 10%);
     border-radius: 3px;
@@ -97,6 +98,10 @@ form > label:after {
 }
 
 @media only screen and (max-width: 480px) {
+
+    main {
+        font-size: 1em;
+    }
 
     article > h3 {
         font-size: 1em;
