@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 div#banner {
-    height: 600px;
+    height: 0;
+    padding-top: 41%;
     color: white;
     text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
     font-weight: normal;
@@ -15,7 +16,7 @@ div#banner {
     flex-flow: row nowrap;
     align-items: flex-end;
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0.7%;
     box-shadow: 0px 0px 5px black;
     background-color: black;
 }
@@ -117,12 +118,23 @@ div.planComparison > div.plan > ul.planDetails {
         padding-right: 5px;
     }
 
+    div.planComparison > div.plan > div.planPrice {
+        font-size: 38px;
+    }
+}
+
+/* Rules for portrait-mode tablet devices or smaller screens */
+@media only screen and (max-width: 768px) {
     div.planComparison div.plan {
         width: 100%;
         margin-bottom: 15px;
     }
+}
 
-    div.planComparison > div.plan > div.planPrice {
-        font-size: 38px;
+/* Rules for landscape-mode tablet devices or smaller screens */
+@media only screen and (max-width: 1024px) {
+    div.planComparison div.plan {
+        width: 48%;
+        margin-bottom: 15px;
     }
 }

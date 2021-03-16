@@ -53,6 +53,7 @@ header {
     color: hsl(0, 0%, 95%);
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
 header > h1 {
@@ -132,15 +133,6 @@ main {
 
 @media only screen and (max-width: 480px) {
 
-    body {
-        width: 100%;
-    }
-
-    header {
-        width: 100%;
-        z-index: 99;
-    }
-
     nav#navbar {
         box-shadow: 0px 0px 3px black;
     }
@@ -191,4 +183,20 @@ main {
     main {
         padding-top: 90px;
     }
+}
+
+/* Styles for all mobile and tablet devices (width <= 1024px) */
+
+@media only screen and (max-width: 1024px) {
+
+    /* Fit entire page to screen width */
+
+    header {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
 }

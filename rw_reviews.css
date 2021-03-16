@@ -107,6 +107,12 @@ form > label:after {
         font-size: 1em;
     }
 
+}
+
+/* Styles for portrait-mode tablet devices */
+
+@media only screen and (max-width: 768px) {
+
     article {
         width: 100%;
         padding-left: 16px;
@@ -117,5 +123,4 @@ form > label:after {
         padding-left: 8px;
         padding-right: 8px;
     }
-
 }
