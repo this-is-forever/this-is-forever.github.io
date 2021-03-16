@@ -97,18 +97,6 @@ form > label:after {
     content: ":";
 }
 
-@media only screen and (max-width: 480px) {
-
-    main {
-        font-size: 1em;
-    }
-
-    article > h3 {
-        font-size: 1em;
-    }
-
-}
-
 /* Styles for portrait-mode tablet devices */
 
 @media only screen and (max-width: 768px) {
@@ -123,4 +111,16 @@ form > label:after {
         padding-left: 8px;
         padding-right: 8px;
     }
+}
+
+@media only screen and (max-width: 480px) {
+
+    main {
+        font-size: 1em;
+    }
+
+    article > h3 {
+        font-size: 1em;
+    }
+
 }

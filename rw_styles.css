@@ -187,7 +187,7 @@ main {
 
 /* Styles for all mobile and tablet devices (width <= 768px) */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     /* Fit entire page to screen width */
 

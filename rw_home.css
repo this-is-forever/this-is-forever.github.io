@@ -103,6 +103,23 @@ div.planComparison > div.plan > ul.planDetails {
     padding-bottom: 10px;
 }
 
+
+/* Rules for landscape-mode tablet devices or smaller screens */
+@media only screen and (max-width: 1024px) {
+    div.planComparison div.plan {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Rules for portrait-mode tablet devices or smaller screens */
+@media only screen and (max-width: 768px) {
+    div.planComparison div.plan {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     body {
         width: 100%;
@@ -120,21 +137,5 @@ div.planComparison > div.plan > ul.planDetails {
 
     div.planComparison > div.plan > div.planPrice {
         font-size: 38px;
-    }
-}
-
-/* Rules for portrait-mode tablet devices or smaller screens */
-@media only screen and (max-width: 768px) and (orientation: portrait) {
-    div.planComparison div.plan {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-}
-
-/* Rules for landscape-mode tablet devices or smaller screens */
-@media only screen and (max-width: 768px) and (orientation: landscape) {
-    div.planComparison div.plan {
-        width: 48%;
-        margin-bottom: 15px;
     }
 }
