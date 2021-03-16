@@ -45,13 +45,13 @@
             <form id="reviewForm" method="POST">
                 <h2>Leave your own review of Royal Wireless:</h2>
                 <label for="revName">Name</label>
-                <input name="name" id="revName" type="text"/>
+                <input name="name" id="revName" type="text" required/>
                 <label for="revCity">City</label>
-                <input name="city" id="revCity" type="text"/>
+                <input name="city" id="revCity" type="text" required/>
                 <label for="revState">State</label>
-                <input name="state" id="revState" type="text"/>
+                <input name="state" id="revState" type="text" required/>
                 <label for="reviewText">Review</label>
-                <textarea name="review" id="reviewText"></textarea>
+                <textarea name="review" id="reviewText" required></textarea>
                 <input id="submit" type="submit" />
             </form>
         </main>

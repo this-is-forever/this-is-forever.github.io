@@ -2,7 +2,7 @@
 
 main {
     background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 main > h2 {
@@ -21,7 +21,7 @@ div.reviewStage {
 
 article {
     background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
@@ -37,7 +37,7 @@ button#loadMoreButton {
     border: 3px solid hsl(320, 60%, 10%);
     border-radius: 3px;
     padding: 8px;
-    width: 30%;
+    width: 50%;
     background-color: hsl(320, 60%, 10%);
     color: white;
 }
@@ -49,8 +49,7 @@ button#loadMoreButton:hover {
 
 form {
     color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px;
 }
 
 article > h3 {
@@ -61,11 +60,6 @@ article > h3 {
 form > h2 {
     margin: 24px 0px 12px;
     text-align: center;
-}
-
-form {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 form > input, form > textarea {
@@ -99,28 +93,26 @@ form > label:after {
 
 /* Styles for portrait-mode tablet devices */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) {
+
+    main {
+        font-size: 1.5em;
+    }
 
     article {
-        width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
+        width: 80%;
+    }
+
+    button#loadMoreButton {
+        width: 30%;
     }
 
     form {
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
-@media only screen and (max-width: 480px) {
-
-    main {
-        font-size: 1em;
-    }
-
-    article > h3 {
-        font-size: 1em;
-    }
+@media only screen and (min-width: 769px) {
 
 }

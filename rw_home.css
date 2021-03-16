@@ -8,7 +8,7 @@ div#banner {
     font-weight: normal;
     font-family: Questrial, sans-serif;
     text-transform: lowercase;
-    font-size: 60px;
+    font-size: 1.5em;
     background-image: url(img/cell-banner.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -30,8 +30,8 @@ article {
 h2 {
     margin-top: 10px;
     margin-bottom: 32px;
+    font-size: 1.8em;
     font-family: Roboto-Medium, sans-serif;
-    font-size: 32px;
     font-weight: normal;
     color: white;
     text-align: center;
@@ -60,7 +60,8 @@ div.planComparison div.plan {
     color: black;
     box-shadow: 0px 5px 10px black;
     border: 2px solid white;
-    width: 22%;
+    width: 100%;
+    margin-bottom: 32px;
     height: 400px;
 }
 
@@ -104,38 +105,26 @@ div.planComparison > div.plan > ul.planDetails {
 }
 
 
+@media only screen and (min-width: 481px) {
+    
+    div#banner {
+        font-size: 3em;
+    }
+}
+
 /* Rules for landscape-mode tablet devices or smaller screens */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px) {
+
     div.planComparison div.plan {
+        margin-bottom: 16px;
         width: 48%;
-        margin-bottom: 15px;
     }
 }
 
 /* Rules for portrait-mode tablet devices or smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1280px) {
     div.planComparison div.plan {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
-
-    div#banner {
-        height: 110px;
-        font-size: 30px;
-    }
-
-    article {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    div.planComparison > div.plan > div.planPrice {
-        font-size: 38px;
+        margin-bottom: 0px;
+        width: 22%;
     }
 }
