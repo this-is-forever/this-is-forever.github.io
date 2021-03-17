@@ -30,8 +30,8 @@ article {
 h2 {
     margin-top: 10px;
     margin-bottom: 32px;
-    font-size: 1.8em;
     font-family: Roboto-Medium, sans-serif;
+    font-size: 1.5em;
     font-weight: normal;
     color: white;
     text-align: center;
@@ -51,7 +51,7 @@ div.planComparison {
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 16px;
 }
 
 div.planComparison div.plan {
@@ -108,8 +108,17 @@ article > h2 > a {
     color: white;
 }
 
+@media only screen and (max-width: 480px) {
+    div.planComparison > div.plan:last-of-type {
+        margin-bottom: 0px;
+    }
+}
+
 
 @media only screen and (min-width: 481px) {
+    h2 {
+        font-size: 2.5em;
+    }
     
     div#banner {
         font-size: 3em;
@@ -130,7 +139,6 @@ article > h2 > a {
 
 @media only screen and (min-width: 1280px) {
     div.planComparison div.plan {
-        margin-bottom: 0px;
         width: 22%;
     }
 }
