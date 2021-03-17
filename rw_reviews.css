@@ -91,7 +91,7 @@ form > label:after {
     content: ":";
 }
 
-/* Styles for portrait-mode tablet devices */
+/* Styles for screens bigger than phones */
 
 @media only screen and (min-width: 481px) {
 
@@ -112,6 +112,8 @@ form > label:after {
         padding-right: 10%;
     }
 }
+
+/* Styles for screens bigger than tablets */
 
 @media only screen and (min-width: 769px) {
 

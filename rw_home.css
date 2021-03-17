@@ -104,6 +104,10 @@ div.planComparison > div.plan > ul.planDetails {
     padding-bottom: 10px;
 }
 
+article > h2 > a {
+    color: white;
+}
+
 
 @media only screen and (min-width: 481px) {
     
@@ -112,7 +116,8 @@ div.planComparison > div.plan > ul.planDetails {
     }
 }
 
-/* Rules for landscape-mode tablet devices or smaller screens */
+/* Styles for screens bigger than tablets */
+
 @media only screen and (min-width: 769px) {
 
     div.planComparison div.plan {
@@ -121,7 +126,8 @@ div.planComparison > div.plan > ul.planDetails {
     }
 }
 
-/* Rules for portrait-mode tablet devices or smaller screens */
+/* Styles for large screens */
+
 @media only screen and (min-width: 1280px) {
     div.planComparison div.plan {
         margin-bottom: 0px;
