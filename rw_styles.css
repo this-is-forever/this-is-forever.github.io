@@ -19,6 +19,11 @@
     src: url('fonts/Roboto-Medium.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
 /*
     Document Styles
 */
@@ -115,7 +120,7 @@ nav#navbar > ul > li {
 }
 
 nav#navbar > ul > li.currentPage {
-    font-family: Roboto-Medium, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
 }
 
 nav#navbar > ul > li > a {
