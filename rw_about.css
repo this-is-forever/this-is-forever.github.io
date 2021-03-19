@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
+}
+
+article {
+    margin-top: 64px;
+    color: white;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article p {
+    text-align: left;
+    padding: 16px;
+    line-height: 1.2;
+    font-family: Helvitca, sans-serif;
+}
+
+article h3 {
+    padding: 8px 0px;
+}
+
+iframe {
+    width: 80vw;
+    height: 45vw;
+}
+
+@media only screen and (min-width: 481px) {
+
+    h2 {
+        font-size: 3em;
+    }
+
+    article {
+        font-size: 1.5em;
+    }
+
+    article p {
+        padding: 16px 20%;
+    }
+
+}
+
+/* Styles for screens bigger than tablets */
+
+@media only screen and (min-width: 1280px) {
+
+    /* Shrink body and header to 80% of window*/
+
+    iframe {
+        width: 70vw;
+        height: 39.375vw;
+    }
+}
