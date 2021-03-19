@@ -23,7 +23,7 @@ div#banner {
 
 article {
     background-image: linear-gradient(to right, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
-    padding: 24px 0px 24px;
+    padding: 24px 16px 24px;
     margin-bottom: 16px;
 }
 
@@ -140,6 +140,11 @@ img.forward {
 /* Styles for screens bigger than tablets */
 
 @media only screen and (min-width: 769px) {
+
+    article {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
     div.planComparison div.plan {
         margin-bottom: 16px;

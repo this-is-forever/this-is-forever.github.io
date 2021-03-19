@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 2em;
+    color: white;
+    font-family: Questrial, sans-serif;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+article {
+    margin-top: 48px;
+    padding: 7.5% 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.5) 50%);
+    box-shadow: inset 0px 0px 8px hsla(0, 0%, 85%, .05);
+    color: white;
+    border: 1px solid black;
+}
+
+article > h3 {
+    font-size: 1.2em;
+    font-family: Roboto-Light, sans-serif;
+    font-weight: normal;
+    padding-bottom: 32px;
+}
+
+article p {
+    font-size: 0.75em;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    text-align: left;
+    width: 80%;
+}
+
+input {
+    font-size: 1.5em;
+    width: 80%;
+}
+
+input#login {
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    color: white;
+    border: 1px solid hsl(320, 60%, 30%);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+article a {
+    color: white;
+    font-weight: bold;
+}
+
+article > form > * {
+    margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 481px) {
+
+    h2 {
+        font-size: 4em;
+    }
+
+    article {
+        font-size: 1.5em;
+    }
+
+}

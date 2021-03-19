@@ -22,13 +22,14 @@ main > p {
 }
 
 main p {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
     line-height: 1.5;
 }
 
 article {
     background-color: white;
+    box-shadow: inset 0px 0px 8px black;
     padding-bottom: 48px;
     margin-bottom: 48px;
 }
@@ -42,6 +43,7 @@ article > h3 {
     background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
     border-bottom: 3px solid hsl(320, 60%, 10%);
     color: white;
+    text-shadow: 0px 2px 8px black;
 }
 
 article > p {
@@ -62,6 +64,13 @@ article p.articleTimestamp {
 }
 
 @media only screen and (min-width: 769px) {
+
+    article {
+        box-shadow: 0px 8px 24px black, inset 0px 0px 8px black;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     article > h3 {
         padding-left: 1em;
