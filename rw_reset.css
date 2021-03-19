@@ -12,7 +12,7 @@ a:hover {
     text-decoration: underline;
 }
 
-html, body, header, footer, main, article, p, aside, div, h1, h2, h3, form, input, label {
+html, body, header, footer, main, article, section, p, aside, div, h1, h2, h3, form, input, label {
     margin: 0px;
     padding: 0px;
     display: block;
