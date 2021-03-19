@@ -43,6 +43,7 @@ article > section > p {
 
 article > section > p > a {
     font-weight: bold;
+    color: white;
 }
 
 @media only screen and (min-width: 481px) {
