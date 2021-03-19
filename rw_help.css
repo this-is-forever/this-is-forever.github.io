@@ -46,6 +46,35 @@ article > section > p > a {
     color: white;
 }
 
+form {
+    width: 100%;
+}
+
+input {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > * {
+    margin-bottom: 8px;
+}
+
+form > p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8em;
+}
+
+input#searchButton {
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    color: white;
+    border: 1px solid hsl(320, 60%, 30%);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
 @media only screen and (min-width: 481px) {
 
     article > section > h2 {
