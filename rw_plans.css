@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
+    padding-bottom: 64px;
+}
+
+h2, h3 {
+    margin-bottom: 16px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 64px;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+div.planComparison {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+div.planComparison div.plan {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    background-image: linear-gradient(to bottom, white 90%, hsl(0, 0%, 80%));
+    color: black;
+    box-shadow: 0px 5px 10px black;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 32px;
+    height: 440px;
+}
+
+div.plan > p {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.plan > p > a {
+    text-align: center;
+    margin-bottom: 16px;
+    width: 75%;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 4px 0px hsla(0, 0%, 0%, 0.5);
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    color: white;
+    border: 2px solid hsl(320, 60%, 10%);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+div.plan > p > a:hover {
+    background-image: linear-gradient(to right, hsl(320, 60%, 40%), hsl(320, 60%, 30%));
+    text-decoration: none;
+}
+
+div.planComparison > div.plan > div.planName {
+    text-align: center;
+    font-size: 32px;
+    font-family: Roboto-Medium, sans-serif;
+    color: white;
+    font-variant: small-caps;
+    background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
+    padding: 10px 5px 5px 5px;
+    text-shadow: 0px 3px 3px black;
+    border-radius: 8px 8px 0px 0px;
+
+    flex: 0 0 auto;
+}
+
+div.planComparison > div.plan > div.planPrice {
+    text-align: center;
+    font-size: 44px;
+    font-family: Roboto-Medium;
+    background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
+    padding: 5px;
+    text-shadow: 0px 3px 3px black;
+    color: white;
+    border-bottom: 5px solid hsl(320, 80%, 10%);
+
+    flex: 0 0 auto;
+}
+
+div.planComparison > div.plan > div.planData {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+
+    flex: 0 0 auto;
+}
+
+div.planComparison > div.plan > ul.planDetails {
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+article > h2 > a {
+    color: white;
+}
+
+div#allPlans > ul, article > p {
+    color: white;
+    font-size: 1.5em;
+}
+
+article > p {
+    text-align: center;
+}
+
+article > input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    font-size: 1.5em;
+    width: 90%;
+    max-width: 30em;
+    padding: 4px;
+}
+
+article {
+    padding-bottom: 64px;
+}
+
+img.articleIcon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 128px;
+}
+
+div#allPlans {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* Styles for screens bigger than tablets */
+
+@media only screen and (min-width: 769px) {
+
+    article {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.planComparison div.plan {
+        margin-bottom: 16px;
+        width: 48%;
+    }
+
+    article > p {
+        max-width: 28em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Styles for large screens */
+
+@media only screen and (min-width: 1280px) {
+    div.planComparison div.plan {
+        width: 22%;
+    }
+}
