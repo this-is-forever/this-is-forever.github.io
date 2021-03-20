@@ -57,6 +57,7 @@ label {
 input {
     font-size: 1.5em;
     width: 80%;
+    padding: 4px;
 }
 
 input#login {
