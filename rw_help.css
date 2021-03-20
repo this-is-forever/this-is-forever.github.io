@@ -94,7 +94,7 @@ input#searchButton {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
 
     article > section {
         width: 30%;
