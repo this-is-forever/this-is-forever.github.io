@@ -13,7 +13,8 @@ main > h2 {
 }
 
 div.reviewStage {
-    background-image: linear-gradient(to top left, hsl(290, 0%, 80%), hsl(290, 0%, 100%));
+    /*background-image: linear-gradient(to top left, hsl(290, 0%, 80%), hsl(290, 0%, 100%));*/
+    background-image: linear-gradient(to top left, hsl(290, 40%, 10%), hsl(290, 40%, 5%));
     border-top:5px solid hsl(290, 40%, 10%);
     padding: 16px 0px 32px;
     text-align: center;
@@ -27,6 +28,8 @@ article {
     margin-top: 24px;
     color: white;
     padding: 32px 32px 24px;
+    border-top: 1px solid hsl(320, 60%, 20%);
+    border-right: 1px solid hsl(320, 60%, 20%);
     border-bottom: 5px solid hsl(320, 60%, 10%);
     text-align: left;
 }
@@ -38,13 +41,12 @@ button#loadMoreButton {
     border-radius: 3px;
     padding: 8px;
     width: 50%;
-    background-color: hsl(320, 60%, 10%);
+    background-color: hsl(320, 60%, 20%);
     color: white;
 }
 
 button#loadMoreButton:hover {
-    background-color: hsl(320, 60%, 20%);
-
+    background-color: hsl(320, 60%, 25%);
 }
 
 form {
