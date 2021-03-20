@@ -62,6 +62,7 @@ div.planComparison div.plan {
     color: black;
     box-shadow: 0px 5px 10px black;
     border: 2px solid white;
+    border-radius: 8px;
     width: 100%;
     margin-bottom: 32px;
     height: 400px;
@@ -76,6 +77,7 @@ div.planComparison > div.plan > div.planName {
     background-image: linear-gradient(to right, hsl(320, 60%, 20%), hsl(320, 60%, 10%));
     padding: 10px 5px 5px 5px;
     text-shadow: 0px 3px 3px black;
+    border-radius: 8px 8px 0px 0px;
 }
 
 div.planComparison > div.plan > div.planPrice {
