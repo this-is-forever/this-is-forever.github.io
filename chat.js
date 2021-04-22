@@ -14,6 +14,7 @@ function chat() {
         return;
     messagesContainer.innerHTML = "";
     chatWindow.style.display = "flex";
+    messageBox.focus();
     setTimeout(showMessage, 250, 'Please wait while we connect you to a customer support representative.');
     setTimeout(showMessage, 2000, 'Hello! My name is Darcy. How can I help you today?');
 }
@@ -42,4 +43,5 @@ function sendMessage() {
         showUserMessage(messageBox.value);
         messageBox.value = "";
     }
+    messageBox.focus();
 }
