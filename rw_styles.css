@@ -151,6 +151,14 @@ main {
     padding-top: 80px;
 }
 
+footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, hsl(290, 40%, 5%), hsl(290, 40%, 10%) 5%, hsl(290, 40%, 5%));
+}
+
 /* Styles for screens bigger than phones */
 
 @media only screen and (min-width: 481px) {
