@@ -17,6 +17,7 @@ function chat() {
     messageBox.focus();
     setTimeout(showMessage, 250, 'Please wait while we connect you to a customer support representative.');
     setTimeout(showMessage, 2000, 'Hello! My name is Darcy. How can I help you today?');
+    setTimeout(showMessage, 2000, '<i>Please note: this is only a demo. You may enter messages, but no one will respond.</i>');
 }
 
 
