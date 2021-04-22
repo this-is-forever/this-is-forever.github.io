@@ -4,6 +4,10 @@ body {
     background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
 }
 
+footer {
+    margin-top: auto;
+}
+
 h2 {
     text-align: center;
     padding-bottom: 8px;

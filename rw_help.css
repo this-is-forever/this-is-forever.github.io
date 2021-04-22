@@ -5,6 +5,10 @@ body {
     height: auto;
 }
 
+footer {
+    margin-top: auto;
+}
+
 main > h2 {
     color: white;
     text-align: center;

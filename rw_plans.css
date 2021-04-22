@@ -2,7 +2,10 @@
 
 body {
     background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
-    padding-bottom: 64px;
+}
+
+footer {
+    padding-top: 64px;
 }
 
 h2, h3 {
