@@ -156,6 +156,7 @@ footer {
     padding-bottom: 8px;
     text-align: center;
     color: white;
+    background-image: linear-gradient(to right, hsl(290, 40%, 5%), hsl(290, 40%, 10%) 5%, hsl(290, 40%, 5%));
 }
 
 /* Styles for screens bigger than phones */
