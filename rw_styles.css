@@ -52,6 +52,8 @@ body {
     margin: 0px auto;
     box-shadow: 0px 0px 15px black;
     padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 /*
@@ -157,8 +159,6 @@ footer {
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, hsl(290, 40%, 5%), hsl(290, 40%, 10%) 5%, hsl(290, 40%, 5%));
-    position: fixed;
-    bottom: 0;
 }
 
 /* Styles for screens bigger than phones */
