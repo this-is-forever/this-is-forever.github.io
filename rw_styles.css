@@ -157,6 +157,8 @@ footer {
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, hsl(290, 40%, 5%), hsl(290, 40%, 10%) 5%, hsl(290, 40%, 5%));
+    position: fixed;
+    bottom: 0;
 }
 
 /* Styles for screens bigger than phones */
