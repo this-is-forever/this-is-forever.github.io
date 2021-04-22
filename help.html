@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="rw_reset.css" />
         <link rel="stylesheet" href="rw_styles.css" />
         <link rel="stylesheet" href="rw_help.css" />
+        <script src="chat.js" defer></script>
     </head>
     <body>
         <header>
@@ -49,10 +50,20 @@
                     <h2>Live Chat</h2>
                     <p>Need help right now?</p>
                     <p>Customer service representatives are available 24/7.</p>
-                    <p>Click <a>here</a> to speak to one now!</p>
+                    <p>Click <a href="#" onclick="chat()">here</a> to speak to one now!</p>
                 </section>
             </article>
         </main>
         <footer>Copyright &#169; 2021 Royal Wireless</footer>
+        <div id="chat">
+            <div id="chatHeader">
+                <h3>Live Support</h3>
+                <img id="closeButton" onClick="chatClose()" src="img/close.svg" />
+            </div>
+            <div id="chatMessagesContainer">
+                
+            </div>
+            <div id="chatMessageForm"><input id="messageBox" type="text" /><button id="sendButton" onclick="sendMessage()">Send</button></div>
+        </div>
     </body>
 </html>

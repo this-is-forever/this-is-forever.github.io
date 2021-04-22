@@ -75,6 +75,92 @@ input#searchButton {
     margin-top: 8px;
 }
 
+#chat {
+    display: none;
+    position: fixed;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top left, hsl(290, 40%, 20%), hsl(290, 40%, 10%));
+    color: white;
+    border: 1px solid black;
+    padding-top: 16px;
+    box-shadow: 0px 4px 16px black;
+    z-index: 100;
+}
+
+#chatHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+}
+
+#chatHeader > h3 {
+    padding: 8px;
+    flex: 1 0;
+}
+
+#chatHeader > img {
+    flex: 0 0;
+    margin-right: 8px;
+}
+
+#chatMessagesContainer {
+    padding: 8px;
+    flex: 1 0;
+    overflow: auto;
+}
+
+#closeButton {
+    height: 32px;
+    width: 32px;
+}
+
+#chatMessageForm {
+    display: flex;
+}
+
+#chatMessageForm > input {
+    flex: 1 0;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#chatMessageForm > button {
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.message {
+    background-image: linear-gradient(to right, hsl(320, 60%, 30%), hsl(320, 60%, 20%));
+    padding: 8px;
+    margin-right: 20%;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px black;
+    margin-bottom: 8px;
+}
+
+.userMessage {
+    margin-left: 20%;
+    background-image: linear-gradient(to right, hsl(260, 60%, 30%), hsl(260, 60%, 20%));
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px black;
+    margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 525px) and (min-height: 500px) {
+    #chat {
+        width: 500px;
+        height: 500px;
+        bottom: 0;
+        right: 5%;
+    }
+
+}
+
 @media only screen and (min-width: 481px) {
 
     article > section > h2 {
