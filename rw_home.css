@@ -156,7 +156,7 @@ img.forward {
 
 /* Styles for large screens */
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1473px) {
     div.planComparison div.plan {
         width: 22%;
     }

@@ -188,7 +188,7 @@ div#allPlans {
 
 /* Styles for large screens */
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1601px) {
     div.planComparison div.plan {
         width: 22%;
     }
