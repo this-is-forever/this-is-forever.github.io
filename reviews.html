@@ -14,7 +14,7 @@
         <header>
             <h1><a href="/">Royal Wireless.</a></h1>
             <nav id="navbar">
-                <a id="nav-button"><img src="img/nav.png" /></a>
+                <a id="nav-button"><img alt="navigation" src="img/nav.png" /></a>
                 <ul>
                     <li><a href="/plans.html">Shop Plans</a></li>
                     <li class="currentPage"><a href="/reviews.html">Reviews</a></li>
@@ -41,7 +41,7 @@
                     <h3>-Andy B., San Francisco, CA</h3>
                 </article>
                 <!-- Additional comments will be loaded here from backend -->
-                <button id="loadMoreButton" onclick="loadMore()">Load 3 More</button>
+                <button id="loadMoreButton" onclick="loadMore()" onkeydown="loadMore()">Load 3 More</button>
             </div>
             <form id="reviewForm" method="POST">
                 <h2>Leave your own review of Royal Wireless:</h2>
