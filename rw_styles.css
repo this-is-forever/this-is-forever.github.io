@@ -177,6 +177,10 @@ footer {
     background-image: linear-gradient(to right, hsl(290, 40%, 5%), hsl(290, 40%, 10%) 5%, hsl(290, 40%, 5%));
 }
 
+footer > a {
+    color: white;
+}
+
 /* Styles for screens bigger than phones */
 
 @media only screen and (min-width: 481px) {
