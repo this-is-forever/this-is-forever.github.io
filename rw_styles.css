@@ -91,6 +91,16 @@ header > h1 > a {
     text-decoration: none;
 }
 
+header > h1 > a:hover::after {
+    display: inline-block;
+    background-image: url(img/home.svg);
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    margin-left: 4px;
+}
+
 /*
     Nav Bar Styles
 */
