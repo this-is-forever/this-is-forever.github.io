@@ -13,7 +13,6 @@ main > h2 {
 }
 
 div.reviewStage {
-    /*background-image: linear-gradient(to top left, hsl(290, 0%, 80%), hsl(290, 0%, 100%));*/
     background-image: linear-gradient(to top left, hsl(290, 40%, 10%), hsl(290, 40%, 5%));
     border-top:5px solid hsl(290, 40%, 10%);
     padding: 16px 0px 32px;

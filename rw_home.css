@@ -12,7 +12,11 @@ div#banner {
     background-image: url(img/cell-banner.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
     display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
     flex-flow: row nowrap;
     align-items: flex-end;
     padding-left: 16px;
@@ -49,7 +53,11 @@ h2 > img {
 }
 
 div.planComparison {
+    display: -webkit-flex;
+    display: -moz-flex;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;

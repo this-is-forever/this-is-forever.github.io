@@ -21,7 +21,11 @@ main {
 }
 
 article {
+    display: -webkit-flex;
+    display: -moz-flex;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: center;
 }
@@ -78,6 +82,8 @@ input#searchButton {
 #chat {
     display: none;
     position: fixed;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
     flex-flow: column nowrap;
     width: 100%;
     height: 100%;
@@ -90,23 +96,33 @@ input#searchButton {
 }
 
 #chatHeader {
+    display: -webkit-flex;
+    display: -moz-flex;
     display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
     flex-flow: row nowrap;
     align-content: space-between;
 }
 
 #chatHeader > h3 {
     padding: 8px;
+    -webkit-flex: 1 0;
+    -moz-flex: 1 0;
     flex: 1 0;
 }
 
 #chatHeader > img {
+    -webkit-flex: 0 0;
+    -moz-flex: 0 0;
     flex: 0 0;
     margin-right: 8px;
 }
 
 #chatMessagesContainer {
     padding: 8px;
+    -webkit-flex: 1 0;
+    -moz-flex: 1 0;
     flex: 1 0;
     overflow: auto;
 }
@@ -117,10 +133,14 @@ input#searchButton {
 }
 
 #chatMessageForm {
+    display: -webkit-flex;
+    display: -moz-flex;
     display: flex;
 }
 
 #chatMessageForm > input {
+    -webkit-flex: 1 0;
+    -moz-flex: 1 0;
     flex: 1 0;
     padding: 8px;
     font-size: 16px;
