@@ -30,6 +30,7 @@ iframe {
     width: 80vw;
     height: 45vw;
     margin-bottom: 16px;
+    border: none;
 }
 
 @media only screen and (min-width: 481px) {
